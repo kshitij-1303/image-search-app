@@ -1,5 +1,11 @@
-function ImageShow({ image }) {
-  return <img src={image.urls.small} alt="Searched img"></img>;
+
+
+function ImageShow({ image, key}) {
+  return (
+    <div>
+      <img src={image.urls.small} alt={image.alt_description}></img>
+    </div>
+  );
 }
 
 export default ImageShow;

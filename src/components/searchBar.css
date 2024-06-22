@@ -1,0 +1,21 @@
+form {
+    padding: 10px;
+    border: 1px solid lightgray;
+    max-width: 20%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+form input {
+    border-radius: 3px;
+    max-width: 90%;
+}
